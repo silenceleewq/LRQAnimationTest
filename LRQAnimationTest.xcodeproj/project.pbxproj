@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F52A979206648C500D4045F /* LRQCATextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A978206648C500D4045F /* LRQCATextLayer.swift */; };
 		1F52A97C20667A6400D4045F /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A97B20667A6400D4045F /* LayerLabel.m */; };
+		1F52A97F20667D1500D4045F /* LRQCATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */; };
 		1FABD6542065F8B500487191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FABD6532065F8B500487191 /* README.md */; };
 		1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD67F2065F9F100487191 /* LRQAnimationCubeViewController.m */; };
 		1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD6832065FA0800487191 /* LRQBaseViewController.m */; };
@@ -37,6 +38,8 @@
 		1F52A978206648C500D4045F /* LRQCATextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRQCATextLayer.swift; sourceTree = "<group>"; };
 		1F52A97A20667A6400D4045F /* LayerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
 		1F52A97B20667A6400D4045F /* LayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		1F52A97D20667D1500D4045F /* LRQCATransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQCATransformLayerViewController.h; sourceTree = "<group>"; };
+		1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQCATransformLayerViewController.m; sourceTree = "<group>"; };
 		1FABD6532065F8B500487191 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1FABD6742065F90D00487191 /* LRQAnimationMatchStickMenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationMatchStickMenTests.m; sourceTree = "<group>"; };
 		1FABD6762065F90D00487191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				1F52A978206648C500D4045F /* LRQCATextLayer.swift */,
 				1F52A97A20667A6400D4045F /* LayerLabel.h */,
 				1F52A97B20667A6400D4045F /* LayerLabel.m */,
+				1F52A97D20667D1500D4045F /* LRQCATransformLayerViewController.h */,
+				1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */,
 				1F52A977206648C500D4045F /* LRQAnimationTest-Bridging-Header.h */,
 			);
 			path = AnimationSet;
@@ -266,6 +271,7 @@
 				1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */,
 				1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */,
 				1FABD6872066396500487191 /* LRQShapeLayerViewController.m in Sources */,
+				1F52A97F20667D1500D4045F /* LRQCATransformLayerViewController.m in Sources */,
 				1FDA73B3206519F60005273E /* ViewController.m in Sources */,
 				1F52A97C20667A6400D4045F /* LayerLabel.m in Sources */,
 				1FDA73BE206519F60005273E /* main.m in Sources */,

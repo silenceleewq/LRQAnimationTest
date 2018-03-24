@@ -60,6 +60,7 @@
         [_controllers addObject:@{@"title": @"Cube", @"vc":@"LRQAnimationCubeViewController"}];
         [_controllers addObject:@{@"title": @"CAShapeLayer", @"vc":@"LRQShapeLayerViewController"}];
         [_controllers addObject:@{@"title": @"CATextLayer", @"vc":@"LRQCATextLayer"}];
+        [_controllers addObject:@{@"title": @"CATransformLayer", @"vc":@"LRQCATransformLayerViewController"}];
     }
     return _controllers;
 }
