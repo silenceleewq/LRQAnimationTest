@@ -61,6 +61,7 @@
         [_controllers addObject:@{@"title": @"CAShapeLayer", @"vc":@"LRQShapeLayerViewController"}];
         [_controllers addObject:@{@"title": @"CATextLayer", @"vc":@"LRQCATextLayer"}];
         [_controllers addObject:@{@"title": @"CATransformLayer", @"vc":@"LRQCATransformLayerViewController"}];
+        [_controllers addObject:@{@"title": @"CAGradientLayer", @"vc":@"LRQGradientLayerViewController"}];
     }
     return _controllers;
 }
