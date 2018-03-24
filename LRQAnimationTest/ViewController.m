@@ -42,9 +42,16 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Class vcClass = NSClassFromString(self.controllers[indexPath.row][@"vc"]);
-    UIViewController *vc = [vcClass new];
+    
+    UIViewController *vc;
+    if (indexPath.row == 2) {
+        vc = [LRQCATextLayer new];
+    } else {
+        Class vcClass = NSClassFromString(self.controllers[indexPath.row][@"vc"]);
+         vc = [vcClass new];
+    }
     [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 - (NSMutableArray *)controllers {
@@ -52,6 +59,7 @@
         _controllers = [NSMutableArray array];
         [_controllers addObject:@{@"title": @"Cube", @"vc":@"LRQAnimationCubeViewController"}];
         [_controllers addObject:@{@"title": @"CAShapeLayer", @"vc":@"LRQShapeLayerViewController"}];
+        [_controllers addObject:@{@"title": @"CATextLayer", @"vc":@"LRQCATextLayer"}];
     }
     return _controllers;
 }
