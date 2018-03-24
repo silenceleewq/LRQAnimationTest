@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F52A979206648C500D4045F /* LRQCATextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A978206648C500D4045F /* LRQCATextLayer.swift */; };
+		1FABD6542065F8B500487191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FABD6532065F8B500487191 /* README.md */; };
+		1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD67F2065F9F100487191 /* LRQAnimationCubeViewController.m */; };
+		1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD6832065FA0800487191 /* LRQBaseViewController.m */; };
+		1FABD6872066396500487191 /* LRQShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD6862066396500487191 /* LRQShapeLayerViewController.m */; };
+		1FDA73B0206519F60005273E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73AF206519F60005273E /* AppDelegate.m */; };
+		1FDA73B3206519F60005273E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73B2206519F60005273E /* ViewController.m */; };
+		1FDA73B6206519F60005273E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA73B4206519F60005273E /* Main.storyboard */; };
+		1FDA73B8206519F60005273E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA73B7206519F60005273E /* Assets.xcassets */; };
+		1FDA73BB206519F60005273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA73B9206519F60005273E /* LaunchScreen.storyboard */; };
+		1FDA73BE206519F60005273E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73BD206519F60005273E /* main.m */; };
+		1FDA73C8206519F60005273E /* LRQAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73C7206519F60005273E /* LRQAnimationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FDA73C4206519F60005273E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FDA73A3206519F50005273E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDA73AA206519F50005273E;
+			remoteInfo = LRQAnimationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F52A977206648C500D4045F /* LRQAnimationTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRQAnimationTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F52A978206648C500D4045F /* LRQCATextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRQCATextLayer.swift; sourceTree = "<group>"; };
+		1FABD6532065F8B500487191 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1FABD6742065F90D00487191 /* LRQAnimationMatchStickMenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationMatchStickMenTests.m; sourceTree = "<group>"; };
+		1FABD6762065F90D00487191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FABD67E2065F9F100487191 /* LRQAnimationCubeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQAnimationCubeViewController.h; sourceTree = "<group>"; };
+		1FABD67F2065F9F100487191 /* LRQAnimationCubeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationCubeViewController.m; sourceTree = "<group>"; };
+		1FABD6822065FA0800487191 /* LRQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQBaseViewController.h; sourceTree = "<group>"; };
+		1FABD6832065FA0800487191 /* LRQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQBaseViewController.m; sourceTree = "<group>"; };
+		1FABD6852066396500487191 /* LRQShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQShapeLayerViewController.h; sourceTree = "<group>"; };
+		1FABD6862066396500487191 /* LRQShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQShapeLayerViewController.m; sourceTree = "<group>"; };
+		1FDA73AB206519F50005273E /* LRQAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRQAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDA73AE206519F60005273E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FDA73AF206519F60005273E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FDA73B1206519F60005273E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FDA73B2206519F60005273E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FDA73B5206519F60005273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FDA73B7206519F60005273E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FDA73BA206519F60005273E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FDA73BC206519F60005273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FDA73BD206519F60005273E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FDA73C3206519F60005273E /* LRQAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRQAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDA73C7206519F60005273E /* LRQAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationTestTests.m; sourceTree = "<group>"; };
+		1FDA73C9206519F60005273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FDA73A8206519F50005273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDA73C0206519F60005273E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FABD6732065F90D00487191 /* LRQAnimationMatchStickMenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FABD6742065F90D00487191 /* LRQAnimationMatchStickMenTests.m */,
+				1FABD6762065F90D00487191 /* Info.plist */,
+			);
+			path = LRQAnimationMatchStickMenTests;
+			sourceTree = "<group>";
+		};
+		1FABD67D2065F9D800487191 /* AnimationSet */ = {
+			isa = PBXGroup;
+			children = (
+				1FABD67E2065F9F100487191 /* LRQAnimationCubeViewController.h */,
+				1FABD67F2065F9F100487191 /* LRQAnimationCubeViewController.m */,
+				1FABD6852066396500487191 /* LRQShapeLayerViewController.h */,
+				1FABD6862066396500487191 /* LRQShapeLayerViewController.m */,
+				1F52A978206648C500D4045F /* LRQCATextLayer.swift */,
+				1F52A977206648C500D4045F /* LRQAnimationTest-Bridging-Header.h */,
+			);
+			path = AnimationSet;
+			sourceTree = "<group>";
+		};
+		1FABD6812065F9FE00487191 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1FABD6822065FA0800487191 /* LRQBaseViewController.h */,
+				1FABD6832065FA0800487191 /* LRQBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1FDA73A2206519F50005273E = {
+			isa = PBXGroup;
+			children = (
+				1FDA73AD206519F50005273E /* LRQAnimationTest */,
+				1FDA73C6206519F60005273E /* LRQAnimationTestTests */,
+				1FABD6732065F90D00487191 /* LRQAnimationMatchStickMenTests */,
+				1FDA73AC206519F50005273E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FDA73AC206519F50005273E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA73AB206519F50005273E /* LRQAnimationTest.app */,
+				1FDA73C3206519F60005273E /* LRQAnimationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FDA73AD206519F50005273E /* LRQAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				1FABD6812065F9FE00487191 /* Base */,
+				1FABD67D2065F9D800487191 /* AnimationSet */,
+				1FDA73AE206519F60005273E /* AppDelegate.h */,
+				1FDA73AF206519F60005273E /* AppDelegate.m */,
+				1FDA73B1206519F60005273E /* ViewController.h */,
+				1FDA73B2206519F60005273E /* ViewController.m */,
+				1FDA73B4206519F60005273E /* Main.storyboard */,
+				1FDA73B7206519F60005273E /* Assets.xcassets */,
+				1FDA73B9206519F60005273E /* LaunchScreen.storyboard */,
+				1FDA73BC206519F60005273E /* Info.plist */,
+				1FDA73BD206519F60005273E /* main.m */,
+				1FABD6532065F8B500487191 /* README.md */,
+			);
+			path = LRQAnimationTest;
+			sourceTree = "<group>";
+		};
+		1FDA73C6206519F60005273E /* LRQAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA73C7206519F60005273E /* LRQAnimationTestTests.m */,
+				1FDA73C9206519F60005273E /* Info.plist */,
+			);
+			path = LRQAnimationTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FDA73AA206519F50005273E /* LRQAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDA73CC206519F60005273E /* Build configuration list for PBXNativeTarget "LRQAnimationTest" */;
+			buildPhases = (
+				1FDA73A7206519F50005273E /* Sources */,
+				1FDA73A8206519F50005273E /* Frameworks */,
+				1FDA73A9206519F50005273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRQAnimationTest;
+			productName = LRQAnimationTest;
+			productReference = 1FDA73AB206519F50005273E /* LRQAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FDA73C2206519F60005273E /* LRQAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FDA73CF206519F60005273E /* Build configuration list for PBXNativeTarget "LRQAnimationTestTests" */;
+			buildPhases = (
+				1FDA73BF206519F60005273E /* Sources */,
+				1FDA73C0206519F60005273E /* Frameworks */,
+				1FDA73C1206519F60005273E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FDA73C5206519F60005273E /* PBXTargetDependency */,
+			);
+			name = LRQAnimationTestTests;
+			productName = LRQAnimationTestTests;
+			productReference = 1FDA73C3206519F60005273E /* LRQAnimationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FDA73A3206519F50005273E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lirenqiang;
+				TargetAttributes = {
+					1FDA73AA206519F50005273E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					1FDA73C2206519F60005273E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FDA73AA206519F50005273E;
+					};
+				};
+			};
+			buildConfigurationList = 1FDA73A6206519F50005273E /* Build configuration list for PBXProject "LRQAnimationTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FDA73A2206519F50005273E;
+			productRefGroup = 1FDA73AC206519F50005273E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FDA73AA206519F50005273E /* LRQAnimationTest */,
+				1FDA73C2206519F60005273E /* LRQAnimationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FDA73A9206519F50005273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDA73BB206519F60005273E /* LaunchScreen.storyboard in Resources */,
+				1FDA73B8206519F60005273E /* Assets.xcassets in Resources */,
+				1FABD6542065F8B500487191 /* README.md in Resources */,
+				1FDA73B6206519F60005273E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDA73C1206519F60005273E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FDA73A7206519F50005273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */,
+				1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */,
+				1FABD6872066396500487191 /* LRQShapeLayerViewController.m in Sources */,
+				1FDA73B3206519F60005273E /* ViewController.m in Sources */,
+				1FDA73BE206519F60005273E /* main.m in Sources */,
+				1FDA73B0206519F60005273E /* AppDelegate.m in Sources */,
+				1F52A979206648C500D4045F /* LRQCATextLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDA73BF206519F60005273E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDA73C8206519F60005273E /* LRQAnimationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FDA73C5206519F60005273E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FDA73AA206519F50005273E /* LRQAnimationTest */;
+			targetProxy = 1FDA73C4206519F60005273E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FDA73B4206519F60005273E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDA73B5206519F60005273E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FDA73B9206519F60005273E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FDA73BA206519F60005273E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FDA73CA206519F60005273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FDA73CB206519F60005273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FDA73CD206519F60005273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LRQAnimationTest/AnimationSet/LRQAnimationTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FDA73CE206519F60005273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LRQAnimationTest/AnimationSet/LRQAnimationTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FDA73D0206519F60005273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRQAnimationTest.app/LRQAnimationTest";
+			};
+			name = Debug;
+		};
+		1FDA73D1206519F60005273E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5G9R9WR6W;
+				INFOPLIST_FILE = LRQAnimationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myOwn.www.LRQAnimationTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRQAnimationTest.app/LRQAnimationTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FDA73A6206519F50005273E /* Build configuration list for PBXProject "LRQAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDA73CA206519F60005273E /* Debug */,
+				1FDA73CB206519F60005273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDA73CC206519F60005273E /* Build configuration list for PBXNativeTarget "LRQAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDA73CD206519F60005273E /* Debug */,
+				1FDA73CE206519F60005273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FDA73CF206519F60005273E /* Build configuration list for PBXNativeTarget "LRQAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDA73D0206519F60005273E /* Debug */,
+				1FDA73D1206519F60005273E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FDA73A3206519F50005273E /* Project object */;
+}
