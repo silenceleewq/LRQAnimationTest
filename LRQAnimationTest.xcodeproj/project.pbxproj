@@ -11,6 +11,8 @@
 		1F52A97C20667A6400D4045F /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A97B20667A6400D4045F /* LayerLabel.m */; };
 		1F52A97F20667D1500D4045F /* LRQCATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */; };
 		1F52A98220668FF600D4045F /* LRQGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A98120668FF600D4045F /* LRQGradientLayerViewController.m */; };
+		1F52A9852066953600D4045F /* LRQReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A9842066953600D4045F /* LRQReplicatorLayerViewController.m */; };
+		1F52A9882067439F00D4045F /* LRQReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F52A9872067439F00D4045F /* LRQReflectionView.m */; };
 		1FABD6542065F8B500487191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1FABD6532065F8B500487191 /* README.md */; };
 		1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD67F2065F9F100487191 /* LRQAnimationCubeViewController.m */; };
 		1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FABD6832065FA0800487191 /* LRQBaseViewController.m */; };
@@ -43,6 +45,10 @@
 		1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQCATransformLayerViewController.m; sourceTree = "<group>"; };
 		1F52A98020668FF600D4045F /* LRQGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQGradientLayerViewController.h; sourceTree = "<group>"; };
 		1F52A98120668FF600D4045F /* LRQGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQGradientLayerViewController.m; sourceTree = "<group>"; };
+		1F52A9832066953600D4045F /* LRQReplicatorLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		1F52A9842066953600D4045F /* LRQReplicatorLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		1F52A9862067439F00D4045F /* LRQReflectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQReflectionView.h; sourceTree = "<group>"; };
+		1F52A9872067439F00D4045F /* LRQReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQReflectionView.m; sourceTree = "<group>"; };
 		1FABD6532065F8B500487191 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1FABD6742065F90D00487191 /* LRQAnimationMatchStickMenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationMatchStickMenTests.m; sourceTree = "<group>"; };
 		1FABD6762065F90D00487191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +114,10 @@
 				1F52A97E20667D1500D4045F /* LRQCATransformLayerViewController.m */,
 				1F52A98020668FF600D4045F /* LRQGradientLayerViewController.h */,
 				1F52A98120668FF600D4045F /* LRQGradientLayerViewController.m */,
+				1F52A9832066953600D4045F /* LRQReplicatorLayerViewController.h */,
+				1F52A9842066953600D4045F /* LRQReplicatorLayerViewController.m */,
+				1F52A9862067439F00D4045F /* LRQReflectionView.h */,
+				1F52A9872067439F00D4045F /* LRQReflectionView.m */,
 				1F52A977206648C500D4045F /* LRQAnimationTest-Bridging-Header.h */,
 			);
 			path = AnimationSet;
@@ -276,6 +286,7 @@
 			files = (
 				1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */,
 				1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */,
+				1F52A9852066953600D4045F /* LRQReplicatorLayerViewController.m in Sources */,
 				1FABD6872066396500487191 /* LRQShapeLayerViewController.m in Sources */,
 				1F52A97F20667D1500D4045F /* LRQCATransformLayerViewController.m in Sources */,
 				1FDA73B3206519F60005273E /* ViewController.m in Sources */,
@@ -284,6 +295,7 @@
 				1FDA73B0206519F60005273E /* AppDelegate.m in Sources */,
 				1F52A98220668FF600D4045F /* LRQGradientLayerViewController.m in Sources */,
 				1F52A979206648C500D4045F /* LRQCATextLayer.swift in Sources */,
+				1F52A9882067439F00D4045F /* LRQReflectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
