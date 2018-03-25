@@ -7,7 +7,7 @@
 //
 
 #import "LRQReplicatorLayerViewController.h"
-
+#import "LRQReflectionView.h"
 @interface LRQReplicatorLayerViewController ()
 @end
 
@@ -16,6 +16,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    LRQReflectionView *reflection = [[LRQReflectionView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:reflection];
+    reflection.layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"Square"].CGImage);
+}
+///CAReplicatorLayer Demo
+- (void)replicatorLayerDemo {
     //create a replicator layer and add it to our view
     CAReplicatorLayer *replicator = [CAReplicatorLayer layer];
     replicator.bounds = CGRectMake(0, 0, 300, 300);
