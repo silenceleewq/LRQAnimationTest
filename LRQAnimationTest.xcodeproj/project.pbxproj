@@ -25,6 +25,7 @@
 		1FDA73BB206519F60005273E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDA73B9206519F60005273E /* LaunchScreen.storyboard */; };
 		1FDA73BE206519F60005273E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73BD206519F60005273E /* main.m */; };
 		1FDA73C8206519F60005273E /* LRQAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA73C7206519F60005273E /* LRQAnimationTestTests.m */; };
+		1FF63A96206B173500FD13BE /* LRQPresentationLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF63A95206B173500FD13BE /* LRQPresentationLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		1FDA73C3206519F60005273E /* LRQAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRQAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA73C7206519F60005273E /* LRQAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQAnimationTestTests.m; sourceTree = "<group>"; };
 		1FDA73C9206519F60005273E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF63A94206B173500FD13BE /* LRQPresentationLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRQPresentationLayerViewController.h; sourceTree = "<group>"; };
+		1FF63A95206B173500FD13BE /* LRQPresentationLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRQPresentationLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				1F52A977206648C500D4045F /* LRQAnimationTest-Bridging-Header.h */,
 				1F0AA7542068F86900C55FE5 /* LRQTransactionViewController.h */,
 				1F0AA7552068F86900C55FE5 /* LRQTransactionViewController.m */,
+				1FF63A94206B173500FD13BE /* LRQPresentationLayerViewController.h */,
+				1FF63A95206B173500FD13BE /* LRQPresentationLayerViewController.m */,
 			);
 			path = AnimationSet;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 			files = (
 				1FABD6842065FA0800487191 /* LRQBaseViewController.m in Sources */,
 				1FABD6802065F9F100487191 /* LRQAnimationCubeViewController.m in Sources */,
+				1FF63A96206B173500FD13BE /* LRQPresentationLayerViewController.m in Sources */,
 				1F52A9852066953600D4045F /* LRQReplicatorLayerViewController.m in Sources */,
 				1FABD6872066396500487191 /* LRQShapeLayerViewController.m in Sources */,
 				1F52A97F20667D1500D4045F /* LRQCATransformLayerViewController.m in Sources */,

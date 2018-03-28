@@ -64,6 +64,7 @@
         [_controllers addObject:@{@"title": @"CAGradientLayer", @"vc":@"LRQGradientLayerViewController"}];
         [_controllers addObject:@{@"title": @"CAReplicatorLayer", @"vc":@"LRQReplicatorLayerViewController"}];
         [_controllers addObject:@{@"title": @"Transaction", @"vc":@"LRQTransactionViewController"}];
+        [_controllers addObject:@{@"title": @"PresentationLayer", @"vc":@"LRQPresentationLayerViewController"}];
     }
     return _controllers;
 }

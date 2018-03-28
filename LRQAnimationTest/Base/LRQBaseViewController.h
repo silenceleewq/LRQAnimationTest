@@ -10,4 +10,5 @@
 
 @interface LRQBaseViewController : UIViewController
 @property (strong, nonatomic) UIView *containerView;
+- (UIColor *)randomColor;
 @end
